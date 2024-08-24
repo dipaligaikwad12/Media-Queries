@@ -1,5 +1,20 @@
 body{
     background-color: #fef6e4;
+    margin: 0px;
+}
+.header{
+    height: 38px;
+    background-color: #09a809;
+    color: #ffffff;
+    padding: 10px;
+    display: flex;
+}
+.search-box{
+    padding: 5px;
+    margin-top: 7px;
+    font-size: 15px;
+    width: 400px;
+    margin-left: 190px;
 }
 .heading{
     text-align: center;
@@ -27,6 +42,7 @@ body{
 .features-container{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .features-card{
     width: 250px;
@@ -85,4 +101,9 @@ body{
     color: #ffffff;
     border-radius: 10px;
     transition: 0.5s;
+}
+
+/*mobile*/
+@media screen and(max-width:500px){
+    
 }
