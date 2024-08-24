@@ -1,0 +1,31 @@
+body{
+    background-color: #fef6e4;
+}
+.heading{
+    text-align: center;
+}
+.main-header-container{
+    display: flex;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: center;
+}
+.header-image{
+    height: 250px;
+}
+.name-color{
+    color:  #00cc44;
+}
+.paragraph-style{
+    font-size: 20px;   
+}
+.features-card{
+    width: 300px;
+    background-color: #ffffff;
+    margin: 30px;
+    padding: 20px;
+    border:3px double black;
+}
+.card-image{
+    height: 200px;
+}
