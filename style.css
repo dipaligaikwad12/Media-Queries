@@ -15,7 +15,11 @@ body{
     height: 250px;
 }
 .name-color{
-    color:  #00cc44;
+    color: #ffffff;
+    background-color: #09a809;
+    padding: 3px;
+    font-size: 36px;
+    border-radius: 8px;
 }
 .paragraph-style{
     font-size: 20px;   
@@ -48,4 +52,37 @@ body{
 }
 .features-card:hover{
     box-shadow: 0px 0px 3px 4px #09a809;
+}
+.category-card{
+    width: 200px;
+    background-color: #ffffff;
+    margin: 30px;
+    padding: 20px;
+    border:7px double #808080;
+}
+.category-card:hover{
+    box-shadow: 0px 0px 3px 4px #09a809;
+}
+.category-card-image{
+    width: 180px;
+}
+.dairy-prod-image{
+    height: 120px;
+    width: 140px;
+}
+.algn{
+    text-align: center;
+}
+.category-btn{
+    padding: 9px;
+    font-size: 17px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    margin-left: 50px;
+}
+.category-btn:hover{
+    background-color: #09a809;
+    color: #ffffff;
+    border-radius: 10px;
+    transition: 0.5s;
 }
