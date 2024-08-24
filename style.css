@@ -20,12 +20,27 @@ body{
     font-size: 20px;   
 }
 .features-card{
-    width: 300px;
+    width: 250px;
     background-color: #ffffff;
     margin: 30px;
     padding: 20px;
-    border:3px double black;
+    border:7px double #808080;
+    padding-top: 0px;
 }
 .card-image{
     height: 200px;
+    margin-left: 26px;
+}
+.card-name{
+    font-size: 30px;
+    margin-top: 0px;
+    text-align: center;
+}
+.card-paragraph{
+    font-size: 17px;
+    text-align: center;
+    margin-top: 0px;
+}
+.features-card:hover{
+    box-shadow: 0px 0px 3px 4px #09a809;
 }
