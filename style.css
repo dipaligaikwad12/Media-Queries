@@ -102,6 +102,23 @@ body{
     border-radius: 10px;
     transition: 0.5s;
 }
+.customer-card{
+    width: 250px;
+    background-color: #ffffff;
+    margin: 30px;
+    padding: 20px;
+    border: 7px double grey;
+}
+.customer-card:hover{
+    box-shadow: 0px 0px 3px 4px #09a809;
+}
+.customer-image{
+    height: 100px;
+    border: 1px solid black;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 70px;
+}
 
 /*mobile*/
 @media screen and(max-width:500px){
