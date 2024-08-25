@@ -119,6 +119,21 @@ body{
     border-radius: 50%;
     margin-left: 70px;
 }
+.footer-container{
+    background-color: #ffffff;
+    padding: 20px;
+}
+.footer-image{
+    height: 50px;
+    padding: 2px;
+}
+.footer-links{
+    width: 250px;
+    margin-left: 40px;
+}
+.font{
+    font-size: 17px;
+}
 
 /*mobile*/
 @media screen and(max-width:500px){
